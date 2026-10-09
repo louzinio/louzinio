@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Yonatan Louzon - Practical Engineer, Navigation Warfare">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e5484d" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e5484d" stop-opacity="0.12"/>
+    </linearGradient>
+    <clipPath id="sky"><circle cx="975" cy="138" r="100"/></clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="12" fill="#0d1117" stroke="#30363d"/>
+
+  <!-- identity -->
+  <rect x="64" y="70" width="3" height="16" fill="#e5484d"/>
+  <text x="76" y="83" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#e5484d">NAV WAR · RESILIENT PNT</text>
+  <text x="62" y="146" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="52" font-weight="600" fill="#e6edf3">Yonatan Louzon</text>
+  <text x="64" y="184" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#8b949e">Practical Engineer · Navigation Warfare</text>
+  <line x1="64" y1="210" x2="560" y2="210" stroke="#30363d"/>
+  <text x="64" y="238" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13.5" fill="#8b949e" xml:space="preserve">GNSS jamming &amp; spoofing   ·   Anti-jam   ·   Timing under threat</text>
+
+  <!-- skyplot -->
+  <g fill="none" stroke="#30363d" stroke-width="1">
+    <circle cx="975" cy="138" r="100.0"/><circle cx="975" cy="138" r="66.7"/><circle cx="975" cy="138" r="33.3"/>
+    <path d="M875 138H1075M975 38V238" stroke="#21262d"/>
+  </g>
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#8b949e"><text x="975.0" y="26.0" text-anchor="middle">N</text><text x="1087.0" y="138.0" text-anchor="middle">E</text><text x="975.0" y="254.0" text-anchor="middle">S</text><text x="863.0" y="138.0" text-anchor="middle">W</text></g>
+
+  <g clip-path="url(#sky)">
+    <path d="M975 138 L881.0 103.8 A100 100 0 0 1 898.4 73.7 Z" fill="#e5484d" fill-opacity="0.08" stroke="#e5484d" stroke-opacity="0.55" stroke-dasharray="3 4"/>
+    <g>
+      <path d="M975 138 L910.7 61.4 A100 100 0 0 1 975.0 38.0 Z" fill="url(#fade)"/>
+      <line x1="975" y1="138" x2="975.0" y2="38.0" stroke="#e5484d" stroke-opacity="0.5"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 975 138" to="360 975 138" dur="10s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace">
+    <circle cx="1000.8" cy="101.1" r="3" fill="#c9d1d9"/><text x="1007.8" y="104.6" font-size="9.5" fill="#8b949e">G07</text>
+    <circle cx="1040.8" cy="161.9" r="3" fill="#c9d1d9"/><text x="1047.8" y="165.4" font-size="9.5" fill="#8b949e">G13</text>
+    <circle cx="987.0" cy="170.9" r="3" fill="#c9d1d9"/><text x="994.0" y="174.4" font-size="9.5" fill="#8b949e">E21</text>
+    <circle cx="941.2" cy="210.5" r="3" fill="#c9d1d9"/><text x="948.2" y="214.0" font-size="9.5" fill="#8b949e">G30</text>
+    <circle cx="923.3" cy="156.8" r="3" fill="#c9d1d9"/><text x="930.3" y="160.3" font-size="9.5" fill="#8b949e">R04</text>
+    <circle cx="960.0" cy="112.0" r="3" fill="#c9d1d9"/><text x="967.0" y="115.5" font-size="9.5" fill="#8b949e">E05</text>
+    <circle cx="1059.6" cy="107.2" r="3" fill="#c9d1d9"/><text x="1066.6" y="110.7" font-size="9.5" fill="#8b949e">G19</text>
+  </g>
+
+  <!-- jammer -->
+  <g transform="translate(904.0 97.0)">
+    <circle r="9" fill="none" stroke="#e5484d" stroke-opacity="0.5">
+      <animate attributeName="r" values="5;16" dur="2.6s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.6;0" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M0 -5 L5 4 H-5 Z" fill="#e5484d"/>
+  </g>
+  <text x="896.0" y="85.0" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="9.5" fill="#e5484d" text-anchor="end">JAMMER · NULLED</text>
+
+  <!-- receiver -->
+  <circle cx="975" cy="138" r="10" fill="none" stroke="#e6edf3" stroke-opacity="0.35"/>
+  <circle cx="975" cy="138" r="3.5" fill="#e6edf3"/>
+
+  <text x="975" y="282" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10" fill="#8b949e" text-anchor="middle" letter-spacing="1">CRPA NULL STEERED · FIX HELD</text>
+</svg>
