@@ -9,25 +9,6 @@ I work on the part of navigation that starts when GPS stops being trustworthy �
 
 <br/>
 
-### Focus
-
-| Area | Scope |
-|---|---|
-| **Electronic attack** | GNSS jamming and spoofing — detection, characterization, emitter localization |
-| **Protection** | Anti-jam antennas (CRPA), null steering, interference mitigation |
-| **Threat simulation** | GNSS simulators, live ephemeris pipelines, repeatable attack scenarios on the bench |
-| **Timing** | 1PPS, GPSDO holdover and time-server integrity under threat |
-| **Receivers** | JAVAD (GREIS), NovAtel (OEM), u-blox — raw logs, transcoding, bridging |
-
-### Threat model
-
-| Threat | Effect | Countermeasure |
-|---|---|---|
-| Jamming | Loss of lock, no fix | C/N₀ and AGC monitoring, J/S estimation, CRPA null steering, holdover |
-| Spoofing | Position and time walked off silently | Multi-receiver cross-checks, clock and position jump detection, signal-power consistency |
-| Meaconing | Delayed rebroadcast of real signals | Timing-residual analysis, 1PPS vs. disciplined oscillator |
-| Denial | No GNSS at all | GPSDO holdover, alternate PNT, clear indication of when trust was lost |
-
 ### Tools
 
 ![Python](https://img.shields.io/badge/Python-24292f?style=flat-square&logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-24292f?style=flat-square&logo=rust&logoColor=white) ![Qt](https://img.shields.io/badge/PySide6-24292f?style=flat-square&logo=qt&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-24292f?style=flat-square&logo=raspberrypi&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-24292f?style=flat-square&logo=linux&logoColor=white) ![NMEA](https://img.shields.io/badge/NMEA-24292f?style=flat-square) ![RTCM](https://img.shields.io/badge/RTCM-24292f?style=flat-square) ![GREIS](https://img.shields.io/badge/GREIS-24292f?style=flat-square) ![NovAtel](https://img.shields.io/badge/NovAtel_OEM-24292f?style=flat-square) ![SCPI](https://img.shields.io/badge/SCPI-24292f?style=flat-square)
