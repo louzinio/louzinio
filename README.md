@@ -3,6 +3,11 @@
   <img src="assets/banner-light.svg" alt="Yonatan Louzon - Practical Engineer, Navigation Warfare" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/contrib-dark.svg">
+  <img src="assets/contrib-light.svg" alt="Contribution graph" width="100%">
+</picture>
+
 <br/>
 
 I work on the part of navigation that starts when GPS stops being trustworthy — **detecting, characterizing and defeating GNSS jamming and spoofing**, and keeping position and time alive while someone is actively trying to take them away. Most of my work lives between the receiver, the RF bench and the tools that make sense of both.
