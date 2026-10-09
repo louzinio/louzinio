@@ -14,6 +14,8 @@ I work on the part of navigation that starts when GPS stops being trustworthy â€
 
 <br/>
 
+<img src="assets/matrix-rain.svg" alt="made by Louzinio el nino" width="100%">
+
 ### Tools
 
 ![Python](https://img.shields.io/badge/Python-24292f?style=flat-square&logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-24292f?style=flat-square&logo=rust&logoColor=white) ![Qt](https://img.shields.io/badge/PySide6-24292f?style=flat-square&logo=qt&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-24292f?style=flat-square&logo=raspberrypi&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-24292f?style=flat-square&logo=linux&logoColor=white) ![NMEA](https://img.shields.io/badge/NMEA-24292f?style=flat-square) ![RTCM](https://img.shields.io/badge/RTCM-24292f?style=flat-square) ![GREIS](https://img.shields.io/badge/GREIS-24292f?style=flat-square) ![NovAtel](https://img.shields.io/badge/NovAtel_OEM-24292f?style=flat-square) ![SCPI](https://img.shields.io/badge/SCPI-24292f?style=flat-square)
@@ -34,6 +36,3 @@ I work on the part of navigation that starts when GPS stops being trustworthy â€
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=louzinio&layout=compact&hide_border=true&bg_color=f6f8fa&langs_count=6" alt="Languages">
 </picture>
 
-<br/>
-
-<img src="assets/matrix-rain.svg" alt="made by Louzinio el nino" width="100%">
