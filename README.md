@@ -33,3 +33,7 @@ I work on the part of navigation that starts when GPS stops being trustworthy â€
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=louzinio&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&langs_count=6">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=louzinio&layout=compact&hide_border=true&bg_color=f6f8fa&langs_count=6" alt="Languages">
 </picture>
+
+<br/>
+
+<img src="assets/matrix-rain.svg" alt="made by Louzinio el nino" width="100%">
